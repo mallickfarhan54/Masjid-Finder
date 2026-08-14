@@ -19,7 +19,8 @@ const masjids = [
     image:
       "https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?auto=format&fit=crop&w=900&q=80",
     locationUrl:
-      https:"//www.google.com/maps/dir/KIET+Group+of+Institutions,+Delhi-NCR,+Meerut+Rd,+Ghaziabad,+Uttar+Pradesh+201206/Padao+wali+masjid,+QGC6%2B44P,+Bus+Stand,+GT+Rd,+Brij+Vihar+Colony,+Muradnagar,+Uttar+Pradesh+201206/@28.7606065,77.4913168,15z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x390cf574d18f2b6f:0x4a65c0bc0122eb2f!2m2!1d77.4970664!2d28.7531817!1m5!1m1!1s0x390cf45c1e04c9af:0x89791d5ea3ee4749!2m2!1d77.5103357!2d28.770318?entry=ttu&g_ep=EgoyMDI2MDgxMS4wIKXMDSoASAFQAw%3D%3D"
+      "https://www.google.com/maps/search/?api=1&query=Masjid+Muradnagar+Ghaziabad"
+  },
 
   {
     id: 2,
