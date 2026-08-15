@@ -1,1 +1,1 @@
-# Masjid-Findder
+# Masjid-Finder
