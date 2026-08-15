@@ -29,7 +29,7 @@ const masjids = [
     area: "Muradnagar, Ghaziabad",
     address: "Main Market, Muradnagar, Ghaziabad, Uttar Pradesh",
     jummah: "1:00 PM",
-    distance: "Sample distance",
+    distance: "Sample distance ",
     image:
       "https://images.unsplash.com/photo-1564769625905-50e93615e769?auto=format&fit=crop&w=900&q=80",
     locationUrl:
@@ -38,6 +38,18 @@ const masjids = [
   },
   {
     id: 7,
+    name: "Jama Masjid",
+    area: "Muradnagar, Ghaziabad",
+    address: "Main Market, Muradnagar, Ghaziabad, Uttar Pradesh",
+    jummah: "12:45 PM",
+    distance: "Sample distance",
+    image:
+      "https://images.unsplash.com/photo-1564769625905-50e93615e769?auto=format&fit=crop&w=900&q=80",
+    locationUrl:
+      "https://www.google.com/maps/search/?api=1&query=Jama+Masjid+Muradnagar+Ghaziabad"
+  },
+   {
+    id: 8,
     name: "Jama Masjid",
     area: "Muradnagar, Ghaziabad",
     address: "Main Market, Muradnagar, Ghaziabad, Uttar Pradesh",
