@@ -19,8 +19,7 @@ const masjids = [
     image:
       "https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?auto=format&fit=crop&w=900&q=80",
     locationUrl:
-      "https://www.google.com/maps/dir/?api=1&destination=QGH3%2B7CP%2C%20116%2C%20Rawli%20Rd%2C%20Gandhi%20Colony%2C%20Malik%20Nagar%2C%20Muradnagar%2C%20Uttar%20Pradesh%20201206"
-
+     " https://www.google.com/maps/search/?api=1&query=Bilal+Masjid%2C+Rawli+Road%2C+Muradnagar%2C+Uttar+Pradesh+201206"
   },
 
   {
@@ -37,31 +36,29 @@ const masjids = [
 
   },
   {
-    id: 7,
-    name: "Jama Masjid",
+    id: 3,
+    name: "Ek minar masjid",
     area: "Muradnagar, Ghaziabad",
     address: "Main Market, Muradnagar, Ghaziabad, Uttar Pradesh",
-    jummah: "12:45 PM",
+    jummah: "2:00",
     distance: "Sample distance",
     image:
       "https://images.unsplash.com/photo-1564769625905-50e93615e769?auto=format&fit=crop&w=900&q=80",
-    locationUrl:
-      "https://www.google.com/maps/search/?api=1&query=Jama+Masjid+Muradnagar+Ghaziabad"
+    locationUrl:"https://www.google.com/maps/search/?api=1&query=444%2C+Sitara+Masjid+Rd%2C+Mohalla+Kot%2C+Malik+Nagar%2C+Muradnagar%2C+Uttar+Pradesh%2C+India"
+      
   },
    {
-    id: 8,
-    name: "Jama Masjid",
+    id: 4,
+    name: "Madarsa  Maintul uloom masjid",
     area: "Muradnagar, Ghaziabad",
     address: "Main Market, Muradnagar, Ghaziabad, Uttar Pradesh",
-    jummah: "12:45 PM",
+    jummah: "1:40 PM",
     distance: "Sample distance",
     image:
       "https://images.unsplash.com/photo-1564769625905-50e93615e769?auto=format&fit=crop&w=900&q=80",
-    locationUrl:
-      "https://www.google.com/maps/search/?api=1&query=Jama+Masjid+Muradnagar+Ghaziabad"
-  },
+    locationUrl:"https://www.google.com/maps/search/?api=1&query=Madarsa+Madintul+Uloom%2C+64%2C+Gali+Number+2%2F4%2C+Malik+Nagar%2C+Muradnagar%2C+Uttar+Pradesh+201206" },
   {
-    id: 3,
+    id: 5,
     name: "Masjid Umar",
     area: "Modinagar Road",
     address: "Modinagar Road, Ghaziabad, Uttar Pradesh",
