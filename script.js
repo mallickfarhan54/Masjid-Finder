@@ -15,7 +15,7 @@ const masjids = [
     area: "Muradnagar, Ghaziabad",
     address: "Muradnagar, Ghaziabad, Uttar Pradesh",
     jummah: "1:00 PM",
-    distance: "Sample distance",
+    distance: "~ 4km",
     image:
       "https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?auto=format&fit=crop&w=900&q=80",
     locationUrl:
@@ -28,11 +28,11 @@ const masjids = [
     area: "Muradnagar, Ghaziabad",
     address: "Main Market, Muradnagar, Ghaziabad, Uttar Pradesh",
     jummah: "1:00 PM",
-    distance: "Sample distance ",
+    distance: "~4 km ",
     image:
       "https://images.unsplash.com/photo-1564769625905-50e93615e769?auto=format&fit=crop&w=900&q=80",
     locationUrl:
-      "https://www.google.com/maps/dir/?api=1&destination=406%2C%20Muradnagar%2C%20Uttar%20Pradesh%20201206"
+      "https://www.google.com/maps/search/?api=1&query=Masjid+Mahmudia%2C+Muradnagar%2C+Uttar+Pradesh+201206"
 
   },
    {
@@ -41,7 +41,7 @@ const masjids = [
     area: "Ghaziabad",
     address: "Ghaziabad, Uttar Pradesh",
     jummah: "1:10 PM",
-    distance: "Sample distance",
+    distance: "~3.2 km",
     image:
       "https://images.unsplash.com/photo-1585036156171-384164a8c675?auto=format&fit=crop&w=900&q=80",
     locationUrl:
@@ -53,7 +53,7 @@ const masjids = [
     area: "Modinagar Road",
     address: "Modinagar rrts Road, Ghaziabad, Uttar Pradesh",
     jummah: "1:20 PM",
-    distance: "Sample distance",
+    distance: "~3 km",
     image:
       "https://images.unsplash.com/photo-1519817650390-64a93db511aa?auto=format&fit=crop&w=900&q=80",
     locationUrl:"https://www.google.com/maps/search/?api=1&query=Padao+Wali+Masjid%2C+QGC6%2B44P%2C+Bus+Stand%2C+GT+Road%2C+Brij+Vihar+Colony%2C+Muradnagar%2C+Uttar+Pradesh+201206"  },
@@ -63,7 +63,7 @@ const masjids = [
     area: "Muradnagar, Ghaziabad",
     address: "Main Market, Muradnagar, Ghaziabad, Uttar Pradesh",
     jummah: "1:40 PM",
-    distance: "Sample distance",
+    distance: "~3.5 km",
     image:
       "https://images.unsplash.com/photo-1564769625905-50e93615e769?auto=format&fit=crop&w=900&q=80",
     locationUrl:"https://www.google.com/maps/search/?api=1&query=Madarsa+Madintul+Uloom%2C+64%2C+Gali+Number+2%2F4%2C+Malik+Nagar%2C+Muradnagar%2C+Uttar+Pradesh+201206" },
@@ -75,7 +75,7 @@ const masjids = [
     area: "Muradnagar, Ghaziabad",
     address: "Main Market, Muradnagar, Ghaziabad, Uttar Pradesh",
     jummah: "2:00",
-    distance: "Sample distance",
+    distance: "~4 km",
     image:
       "https://images.unsplash.com/photo-1564769625905-50e93615e769?auto=format&fit=crop&w=900&q=80",
     locationUrl:"https://www.google.com/maps/search/?api=1&query=444%2C+Sitara+Masjid+Rd%2C+Mohalla+Kot%2C+Malik+Nagar%2C+Muradnagar%2C+Uttar+Pradesh%2C+India"
@@ -102,7 +102,7 @@ const masjids = [
     area: "Ghaziabad, Uttar Pradesh",
     address: "Ghaziabad, Uttar Pradesh",
     jummah: "Unknown",
-    distance: "Sample distance",
+    distance: "~4 km",
     image:
       "https://images.unsplash.com/photo-1599571234909-29ed5d1321d6?auto=format&fit=crop&w=900&q=80",
     locationUrl:
@@ -110,11 +110,11 @@ const masjids = [
   },
    {
     id: 9,
-    name: "Tayyab masjid",
+    name: "Tayyab masjid(Chappar Wali)",
     area: "Ghaziabad, Uttar Pradesh",
     address: "Ghaziabad, Uttar Pradesh",
     jummah: "Unknown",
-    distance: "Sample distance",
+    distance: "~3.5 km",
     image:
       "https://images.unsplash.com/photo-1599571234909-29ed5d1321d6?auto=format&fit=crop&w=900&q=80",
     locationUrl:
@@ -122,11 +122,11 @@ const masjids = [
   },
    {
     id: 10,
-    name: "Jheel waali masjid",
+    name: "Jheel waali(Fatima) masjid",
     area: "Ghaziabad, Uttar Pradesh",
     address: "Ghaziabad, Uttar Pradesh",
     jummah: "Unknown",
-    distance: "Sample distance",
+    distance: "~4 km",
     image:
       "https://images.unsplash.com/photo-1599571234909-29ed5d1321d6?auto=format&fit=crop&w=900&q=80",
     locationUrl:
