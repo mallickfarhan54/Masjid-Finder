@@ -14,7 +14,7 @@ const masjids = [
     name: "Bilal Masjid",
     area: "Muradnagar, Ghaziabad",
     address: "Muradnagar, Ghaziabad, Uttar Pradesh",
-    jummah: "1:10 PM",
+    jummah: "1:00 PM",
     distance: "Sample distance",
     image:
       "https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?auto=format&fit=crop&w=900&q=80",
@@ -35,8 +35,42 @@ const masjids = [
       "https://www.google.com/maps/dir/?api=1&destination=406%2C%20Muradnagar%2C%20Uttar%20Pradesh%20201206"
 
   },
-  {
+   {
     id: 3,
+    name: "Sunheri masjid",
+    area: "Ghaziabad",
+    address: "Ghaziabad, Uttar Pradesh",
+    jummah: "1:10 PM",
+    distance: "Sample distance",
+    image:
+      "https://images.unsplash.com/photo-1585036156171-384164a8c675?auto=format&fit=crop&w=900&q=80",
+    locationUrl:
+      "https://www.google.com/maps/search/?api=1&query=Sunheri+Masjid%2C+1006%2C+Brij+Vihar+Colony%2C+Old+Muradnagar%2C+Muradnagar%2C+Uttar+Pradesh+201206"
+  },
+   {
+    id: 4,
+    name: "Padao vali masid",
+    area: "Modinagar Road",
+    address: "Modinagar rrts Road, Ghaziabad, Uttar Pradesh",
+    jummah: "1:20 PM",
+    distance: "Sample distance",
+    image:
+      "https://images.unsplash.com/photo-1519817650390-64a93db511aa?auto=format&fit=crop&w=900&q=80",
+    locationUrl:"https://www.google.com/maps/search/?api=1&query=Padao+Wali+Masjid%2C+QGC6%2B44P%2C+Bus+Stand%2C+GT+Road%2C+Brij+Vihar+Colony%2C+Muradnagar%2C+Uttar+Pradesh+201206"  },
+    {
+    id: 5,
+    name: "Madarsa  Maintul uloom masjid",
+    area: "Muradnagar, Ghaziabad",
+    address: "Main Market, Muradnagar, Ghaziabad, Uttar Pradesh",
+    jummah: "1:40 PM",
+    distance: "Sample distance",
+    image:
+      "https://images.unsplash.com/photo-1564769625905-50e93615e769?auto=format&fit=crop&w=900&q=80",
+    locationUrl:"https://www.google.com/maps/search/?api=1&query=Madarsa+Madintul+Uloom%2C+64%2C+Gali+Number+2%2F4%2C+Malik+Nagar%2C+Muradnagar%2C+Uttar+Pradesh+201206" },
+
+
+  {
+    id: 6,
     name: "Ek minar masjid",
     area: "Muradnagar, Ghaziabad",
     address: "Main Market, Muradnagar, Ghaziabad, Uttar Pradesh",
@@ -47,28 +81,7 @@ const masjids = [
     locationUrl:"https://www.google.com/maps/search/?api=1&query=444%2C+Sitara+Masjid+Rd%2C+Mohalla+Kot%2C+Malik+Nagar%2C+Muradnagar%2C+Uttar+Pradesh%2C+India"
       
   },
-   {
-    id: 4,
-    name: "Madarsa  Maintul uloom masjid",
-    area: "Muradnagar, Ghaziabad",
-    address: "Main Market, Muradnagar, Ghaziabad, Uttar Pradesh",
-    jummah: "1:40 PM",
-    distance: "Sample distance",
-    image:
-      "https://images.unsplash.com/photo-1564769625905-50e93615e769?auto=format&fit=crop&w=900&q=80",
-    locationUrl:"https://www.google.com/maps/search/?api=1&query=Madarsa+Madintul+Uloom%2C+64%2C+Gali+Number+2%2F4%2C+Malik+Nagar%2C+Muradnagar%2C+Uttar+Pradesh+201206" },
-  {
-    id: 5,
-    name: "Padao vali masid",
-    area: "Modinagar Road",
-    address: "Modinagar rrts Road, Ghaziabad, Uttar Pradesh",
-    jummah: "1:20 PM",
-    distance: "Sample distance",
-    image:
-      "https://images.unsplash.com/photo-1519817650390-64a93db511aa?auto=format&fit=crop&w=900&q=80",
-    locationUrl:"https://www.google.com/maps/search/?api=1&query=Padao+Wali+Masjid%2C+QGC6%2B44P%2C+Bus+Stand%2C+GT+Road%2C+Brij+Vihar+Colony%2C+Muradnagar%2C+Uttar+Pradesh+201206"  },
-
-  // {
+      // {
   //   id: 6,
   //   name: "Masjid Bilal",
   //   area: "Kadrabad, Ghaziabad",
@@ -81,18 +94,7 @@ const masjids = [
   //     "https://www.google.com/maps/search/?api=1&query=Masjid+Kadrabad+Ghaziabad"
   // },
 
-  {
-    id: 7,
-    name: "Sunheri masjid",
-    area: "Ghaziabad",
-    address: "Ghaziabad, Uttar Pradesh",
-    jummah: "1:10 PM",
-    distance: "Sample distance",
-    image:
-      "https://images.unsplash.com/photo-1585036156171-384164a8c675?auto=format&fit=crop&w=900&q=80",
-    locationUrl:
-      "https://www.google.com/maps/search/?api=1&query=Sunheri+Masjid%2C+1006%2C+Brij+Vihar+Colony%2C+Old+Muradnagar%2C+Muradnagar%2C+Uttar+Pradesh+201206"
-  },
+ 
 
   {
     id: 8,
