@@ -59,19 +59,17 @@ const masjids = [
     locationUrl:"https://www.google.com/maps/search/?api=1&query=Madarsa+Madintul+Uloom%2C+64%2C+Gali+Number+2%2F4%2C+Malik+Nagar%2C+Muradnagar%2C+Uttar+Pradesh+201206" },
   {
     id: 5,
-    name: "Masjid Umar",
+    name: "Padao vali masid",
     area: "Modinagar Road",
-    address: "Modinagar Road, Ghaziabad, Uttar Pradesh",
-    jummah: "2:00 PM",
+    address: "Modinagar rrts Road, Ghaziabad, Uttar Pradesh",
+    jummah: "1:20 PM",
     distance: "Sample distance",
     image:
       "https://images.unsplash.com/photo-1519817650390-64a93db511aa?auto=format&fit=crop&w=900&q=80",
-    locationUrl:
-      "https://www.google.com/maps/search/?api=1&query=Masjid+Modinagar+Road+Ghaziabad"
-  },
+    locationUrl:"https://www.google.com/maps/search/?api=1&query=Padao+Wali+Masjid%2C+QGC6%2B44P%2C+Bus+Stand%2C+GT+Road%2C+Brij+Vihar+Colony%2C+Muradnagar%2C+Uttar+Pradesh+201206"  },
 
   {
-    id: 4,
+    id: 6,
     name: "Masjid Bilal",
     area: "Kadrabad, Ghaziabad",
     address: "Kadrabad, Ghaziabad, Uttar Pradesh",
@@ -84,30 +82,67 @@ const masjids = [
   },
 
   {
-    id: 5,
-    name: "Masjid-e-Rahman",
+    id: 7,
+    name: "Sunheri masjid",
     area: "Ghaziabad",
     address: "Ghaziabad, Uttar Pradesh",
-    jummah: "1:30 PM",
+    jummah: "1:10 PM",
     distance: "Sample distance",
     image:
       "https://images.unsplash.com/photo-1585036156171-384164a8c675?auto=format&fit=crop&w=900&q=80",
     locationUrl:
-      "https://www.google.com/maps/search/?api=1&query=Masjid+Ghaziabad"
+      "https://www.google.com/maps/search/?api=1&query=Sunheri+Masjid%2C+1006%2C+Brij+Vihar+Colony%2C+Old+Muradnagar%2C+Muradnagar%2C+Uttar+Pradesh+201206"
   },
 
   {
-    id: 6,
-    name: "Masjid Ibrahim",
+    id: 8,
+    name: "Abdullah masjid",
     area: "Ghaziabad, Uttar Pradesh",
     address: "Ghaziabad, Uttar Pradesh",
-    jummah: "2:15 PM",
+    jummah: "Unknown",
     distance: "Sample distance",
     image:
       "https://images.unsplash.com/photo-1599571234909-29ed5d1321d6?auto=format&fit=crop&w=900&q=80",
     locationUrl:
-      "https://www.google.com/maps/search/?api=1&query=Masjid+Ghaziabad"
-  }
+      "https://www.google.com/maps/search/?api=1&query=Abdullah+Masjid%2C+QGF6%2BW7P%2C+Maulana+Azad+Road%2C+Malik+Nagar%2C+Muradnagar%2C+Uttar+Pradesh+201206"
+  },
+   {
+    id: 9,
+    name: "Tayyab masjid",
+    area: "Ghaziabad, Uttar Pradesh",
+    address: "Ghaziabad, Uttar Pradesh",
+    jummah: "Unknown",
+    distance: "Sample distance",
+    image:
+      "https://images.unsplash.com/photo-1599571234909-29ed5d1321d6?auto=format&fit=crop&w=900&q=80",
+    locationUrl:
+      "https://www.google.com/maps/search/?api=1&query=Tayyab+Masjid+%28Chappar+Wali+Masjid%29%2C+QGC4%2B5FM%2C+Muradnagar%2C+Uttar+Pradesh+201206"
+  },
+   {
+    id: 10,
+    name: "Jheel waali masjid",
+    area: "Ghaziabad, Uttar Pradesh",
+    address: "Ghaziabad, Uttar Pradesh",
+    jummah: "Unknown",
+    distance: "Sample distance",
+    image:
+      "https://images.unsplash.com/photo-1599571234909-29ed5d1321d6?auto=format&fit=crop&w=900&q=80",
+    locationUrl:
+      "https://www.google.com/maps/search/?api=1&query=Jheel+Wali+Masjid+%28Fatima+Masjid%29%2C+QGH2%2BC89%2C+Near+Rashtriya+Ekta+Park%2C+Muradnagar+Main+Rd%2C+Muradnagar%2C+Uttar+Pradesh+201206"
+  },
+   {
+    id: 8,
+    name: "Abdullah masjid",
+    area: "Ghaziabad, Uttar Pradesh",
+    address: "Ghaziabad, Uttar Pradesh",
+    jummah: "Unknown",
+    distance: "Sample distance",
+    image:
+      "https://images.unsplash.com/photo-1599571234909-29ed5d1321d6?auto=format&fit=crop&w=900&q=80",
+    locationUrl:
+      "https://www.google.com/maps/search/?api=1&query=Abdullah+Masjid%2C+QGF6%2BW7P%2C+Maulana+Azad+Road%2C+Malik+Nagar%2C+Muradnagar%2C+Uttar+Pradesh+201206"
+  },
+
 ];
 
 
