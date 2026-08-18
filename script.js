@@ -267,14 +267,7 @@ function createMasjidCard(masjid) {
         </div>
 
         <div class="card-buttons">
-          <a
-            class="location-btn"
-            href="${masjid.locationUrl}"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            🗺️ View Location
-          </a>
+         
 
           <a
             class="direction-btn"
