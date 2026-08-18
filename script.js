@@ -146,6 +146,80 @@ const masjids = [
   // },
 
 ];
+// ==========================================
+// PRAYER START TIMES
+// ==========================================
+
+const prayerTimes = [
+  {
+    prayer: "Fajr",
+    start: "4:30 AM"
+  },
+
+  {
+    prayer: "Sunrise",
+    start: "5:50 AM"
+  },
+
+{
+    prayer: "zawal time",
+    start: "11:40 AM"
+  },
+
+  {
+    prayer: "Dhuhr",
+    start: "12:25 PM"
+  },
+
+  
+
+  {
+    prayer: "Asr",
+    start: "5:05 PM"
+  },
+
+  {
+    prayer: "sunset",
+    start: "6:50 PM"
+  },
+
+  {
+    prayer: "Maghrib",
+    start: "7:00 PM"
+  },
+
+  {
+    prayer: "Isha",
+    start: "8:30 PM"
+  },
+
+  
+];
+
+
+// Get table
+const prayerTableBody =
+  document.getElementById("prayerTableBody");
+
+
+// Display times
+prayerTimes.forEach(function(time) {
+
+  const row = document.createElement("tr");
+
+  row.innerHTML = `
+    <td>
+      <strong>${time.prayer}</strong>
+    </td>
+
+    <td>
+      ${time.start}
+    </td>
+  `;
+
+  prayerTableBody.appendChild(row);
+
+});
 
 
 // 2. Get HTML elements

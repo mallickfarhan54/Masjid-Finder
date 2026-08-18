@@ -104,6 +104,137 @@ nav a:hover {
   cursor: pointer;
 }
 
+/* ==========================================
+   PRAYER TIMES SECTION
+========================================== */
+
+.prayer-section {
+  width: min(1160px, 88%);
+  margin: auto;
+  padding: 90px 0;
+}
+
+/* Table Card */
+
+.table-wrapper {
+  margin-top: 32px;
+  overflow: hidden;
+
+  background: var(--white);
+
+  border: 1px solid var(--border);
+  border-radius: 22px;
+
+  box-shadow: var(--shadow);
+}
+
+/* Table */
+
+.prayer-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Header */
+
+.prayer-table thead {
+  background: var(--green-dark);
+}
+
+.prayer-table th {
+  padding: 18px 25px;
+
+  color: white;
+
+  text-align: left;
+
+  font-size: 0.85rem;
+  font-weight: 800;
+
+  letter-spacing: 0.5px;
+}
+
+/* Rows */
+
+.prayer-table td {
+  padding: 18px 25px;
+
+  border-bottom: 1px solid var(--border);
+
+  color: var(--muted);
+
+  font-size: 0.95rem;
+}
+
+/* Remove border from last row */
+
+.prayer-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* Hover */
+
+.prayer-table tbody tr {
+  transition: background 0.2s ease;
+}
+
+.prayer-table tbody tr:hover {
+  background: var(--green-light);
+}
+
+/* Prayer name */
+
+.prayer-name {
+  color: var(--green-dark);
+  font-weight: 700;
+}
+
+/* Time */
+
+.prayer-time {
+  display: inline-block;
+
+  padding: 7px 12px;
+
+  border-radius: 9px;
+
+  color: var(--green);
+
+  background: var(--green-light);
+
+  font-weight: 800;
+}
+
+/* Highlight Jumu'ah */
+
+.prayer-table tr:last-child {
+  background: #f2f9f5;
+}
+
+.prayer-table tr:last-child .prayer-name {
+  color: var(--green);
+}
+
+/* Mobile */
+
+@media (max-width: 650px) {
+
+  .prayer-section {
+    width: 90%;
+    padding: 65px 0;
+  }
+
+  .table-wrapper {
+    border-radius: 16px;
+  }
+
+  .prayer-table th,
+  .prayer-table td {
+    padding: 15px 16px;
+  }
+
+}
+
 /* =========================
    3. Hero
 ========================= */
