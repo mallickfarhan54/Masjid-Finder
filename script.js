@@ -17,7 +17,7 @@ const masjids = [
     jummah: "1:00 PM",
     distance: "~ 4km",
     image:
-      "https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?auto=format&fit=crop&w=900&q=80",
+      "Bilal Masjid.jpeg",
     locationUrl:
      " https://www.google.com/maps/search/?api=1&query=Bilal+Masjid%2C+Rawli+Road%2C+Muradnagar%2C+Uttar+Pradesh+201206"
   },
@@ -30,7 +30,7 @@ const masjids = [
     jummah: "1:00 PM",
     distance: "~4 km ",
     image:
-      "https://images.unsplash.com/photo-1564769625905-50e93615e769?auto=format&fit=crop&w=900&q=80",
+      "Mehmudia masjid .jpeg",
     locationUrl:
       "https://www.google.com/maps/search/?api=1&query=Masjid+Mahmudia%2C+Muradnagar%2C+Uttar+Pradesh+201206"
 
@@ -43,7 +43,7 @@ const masjids = [
     jummah: "1:10 PM",
     distance: "~3.2 km",
     image:
-      "https://images.unsplash.com/photo-1585036156171-384164a8c675?auto=format&fit=crop&w=900&q=80",
+      "Sunheri masjid.jpeg",
     locationUrl:
       "https://www.google.com/maps/search/?api=1&query=Sunheri+Masjid%2C+1006%2C+Brij+Vihar+Colony%2C+Old+Muradnagar%2C+Muradnagar%2C+Uttar+Pradesh+201206"
   },
@@ -65,7 +65,7 @@ const masjids = [
     jummah: "1:40 PM",
     distance: "~3.5 km",
     image:
-      "https://images.unsplash.com/photo-1564769625905-50e93615e769?auto=format&fit=crop&w=900&q=80",
+      "WhatsApp Image 2026-08-19 at 9.50.55 AM.jpeg",
     locationUrl:"https://www.google.com/maps/search/?api=1&query=Madarsa+Madintul+Uloom%2C+64%2C+Gali+Number+2%2F4%2C+Malik+Nagar%2C+Muradnagar%2C+Uttar+Pradesh+201206" },
 
 
@@ -77,7 +77,7 @@ const masjids = [
     jummah: "2:00",
     distance: "~4 km",
     image:
-      "https://images.unsplash.com/photo-1564769625905-50e93615e769?auto=format&fit=crop&w=900&q=80",
+      "Ek minar masjid.jpeg",
     locationUrl:"https://www.google.com/maps/search/?api=1&query=444%2C+Sitara+Masjid+Rd%2C+Mohalla+Kot%2C+Malik+Nagar%2C+Muradnagar%2C+Uttar+Pradesh%2C+India"
       
   },
@@ -104,7 +104,7 @@ const masjids = [
     jummah: "Unknown",
     distance: "~4 km",
     image:
-      "https://images.unsplash.com/photo-1599571234909-29ed5d1321d6?auto=format&fit=crop&w=900&q=80",
+      "Abdullah masjid.jpeg",
     locationUrl:
       "https://www.google.com/maps/search/?api=1&query=Abdullah+Masjid%2C+QGF6%2BW7P%2C+Maulana+Azad+Road%2C+Malik+Nagar%2C+Muradnagar%2C+Uttar+Pradesh+201206"
   },
@@ -128,7 +128,7 @@ const masjids = [
     jummah: "Unknown",
     distance: "~4 km",
     image:
-      "https://images.unsplash.com/photo-1599571234909-29ed5d1321d6?auto=format&fit=crop&w=900&q=80",
+      "Jheel waali(Fatima) masjid.jpeg",
     locationUrl:
       "https://www.google.com/maps/search/?api=1&query=Jheel+Wali+Masjid+%28Fatima+Masjid%29%2C+QGH2%2BC89%2C+Near+Rashtriya+Ekta+Park%2C+Muradnagar+Main+Rd%2C+Muradnagar%2C+Uttar+Pradesh+201206"
   },
