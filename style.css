@@ -120,7 +120,7 @@ nav a:hover {
   margin-top: 32px;
   overflow: hidden;
 
-  background: var(--white);
+  background: rgba(255, 255, 255, 0.92);
 
   border: 1px solid var(--border);
   border-radius: 22px;
@@ -138,12 +138,13 @@ nav a:hover {
 /* Header */
 
 .prayer-table thead {
-  background: var(--green-dark);
+  background: var(--green);
 }
 
 .prayer-table th {
   padding: 18px 25px;
 
+  background: var(--green);
   color: white;
 
   text-align: left;
@@ -161,7 +162,7 @@ nav a:hover {
 
   border-bottom: 1px solid var(--border);
 
-  color: var(--muted);
+  color: var(--text);
 
   font-size: 0.95rem;
 }
@@ -198,21 +199,17 @@ nav a:hover {
 
   border-radius: 9px;
 
-  color: var(--green);
+  color: var(--green-dark);
 
   background: var(--green-light);
 
   font-weight: 800;
 }
 
-/* Highlight Jumu'ah */
-
-.prayer-table tr:last-child {
-  background: #f2f9f5;
-}
-
-.prayer-table tr:last-child .prayer-name {
-  color: var(--green);
+.prayer-message {
+  text-align: center;
+  color: var(--muted);
+  font-weight: 700;
 }
 
 /* Mobile */
