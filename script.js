@@ -55,7 +55,7 @@ const masjids = [
     jummah: "1:20 PM",
     distance: "~3 km",
     image:
-      "https://images.unsplash.com/photo-1519817650390-64a93db511aa?auto=format&fit=crop&w=900&q=80",
+      "WhatsApp Image 2026-08-19 at 9.50.55 AM (1).jpeg",
     locationUrl:"https://www.google.com/maps/search/?api=1&query=Padao+Wali+Masjid%2C+QGC6%2B44P%2C+Bus+Stand%2C+GT+Road%2C+Brij+Vihar+Colony%2C+Muradnagar%2C+Uttar+Pradesh+201206"  },
     {
     id: 5,
