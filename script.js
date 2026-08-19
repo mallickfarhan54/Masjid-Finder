@@ -55,7 +55,7 @@ const masjids = [
     jummah: "1:20 PM",
     distance: "~3 km",
     image:
-      "https://images.unsplash.com/photo-1519817650390-64a93db511aa?auto=format&fit=crop&w=900&q=80",
+      "padao vali masjid.png",
     locationUrl:"https://www.google.com/maps/search/?api=1&query=Padao+Wali+Masjid%2C+QGC6%2B44P%2C+Bus+Stand%2C+GT+Road%2C+Brij+Vihar+Colony%2C+Muradnagar%2C+Uttar+Pradesh+201206"  },
     {
     id: 5,
@@ -146,80 +146,108 @@ const masjids = [
   // },
 
 ];
-// ==========================================
-// PRAYER START TIMES
-// ==========================================
+// Prayer times from Ummah API for Ghaziabad.
+const prayerTableBody = document.getElementById("prayerTableBody");
+const prayerApiKeyFile = "prayer-timings-api-key-ummahapi.txt";
+const ghaziabadLocation = {
+  lat: 28.6692,
+  lng: 77.4538,
+  timezone: "Asia/Kolkata"
+};
 
-const prayerTimes = [
-  {
-    prayer: "Fajr",
-    start: "4:30 AM"
-  },
+function renderPrayerRows(prayerTimes) {
+  prayerTableBody.innerHTML = "";
 
-  {
-    prayer: "Sunrise",
-    start: "5:50 AM"
-  },
+  prayerTimes.forEach(function(time) {
+    const row = document.createElement("tr");
 
-{
-    prayer: "zawal time",
-    start: "11:40 AM"
-  },
+    row.innerHTML = `
+      <td>
+        <strong class="prayer-name">${time.prayer}</strong>
+      </td>
 
-  {
-    prayer: "Dhuhr",
-    start: "12:25 PM"
-  },
+      <td>
+        <span class="prayer-time">${time.start}</span>
+      </td>
+    `;
 
-  
+    prayerTableBody.appendChild(row);
+  });
+}
 
-  {
-    prayer: "Asr",
-    start: "5:05 PM"
-  },
-
-  {
-    prayer: "sunset",
-    start: "6:50 PM"
-  },
-
-  {
-    prayer: "Maghrib",
-    start: "7:00 PM"
-  },
-
-  {
-    prayer: "Isha",
-    start: "8:30 PM"
-  },
-
-  
-];
-
-
-// Get table
-const prayerTableBody =
-  document.getElementById("prayerTableBody");
-
-
-// Display times
-prayerTimes.forEach(function(time) {
-
-  const row = document.createElement("tr");
-
-  row.innerHTML = `
-    <td>
-      <strong>${time.prayer}</strong>
-    </td>
-
-    <td>
-      ${time.start}
-    </td>
+function renderPrayerMessage(message) {
+  prayerTableBody.innerHTML = `
+    <tr>
+      <td colspan="2" class="prayer-message">${message}</td>
+    </tr>
   `;
+}
 
-  prayerTableBody.appendChild(row);
+function formatPrayerTime(time) {
+  const parts = time.split(":");
+  const date = new Date();
 
-});
+  date.setHours(Number(parts[0]), Number(parts[1]), 0, 0);
+
+  return date.toLocaleTimeString("en-IN", {
+    hour: "numeric",
+    minute: "2-digit",
+    hour12: true
+  });
+}
+
+function buildPrayerSchedule(times) {
+  return [
+    { prayer: "Fajr", start: formatPrayerTime(times.fajr) },
+    { prayer: "Sunrise", start: formatPrayerTime(times.sunrise) },
+    { prayer: "Dhuhr", start: formatPrayerTime(times.dhuhr) },
+    { prayer: "Asr", start: formatPrayerTime(times.asr) },
+    { prayer: "Maghrib", start: formatPrayerTime(times.maghrib) },
+    { prayer: "Isha", start: formatPrayerTime(times.isha) }
+  ];
+}
+
+async function loadPrayerTimes() {
+  renderPrayerMessage("Loading prayer times...");
+
+  try {
+    const keyResponse = await fetch(prayerApiKeyFile);
+
+    if (!keyResponse.ok) {
+      throw new Error("Could not read the Ummah API key file.");
+    }
+
+    const apiKey = (await keyResponse.text()).trim();
+    const params = new URLSearchParams({
+      lat: ghaziabadLocation.lat,
+      lng: ghaziabadLocation.lng,
+      timezone: ghaziabadLocation.timezone,
+      method: "MWL",
+      madhab: "Hanafi",
+      apikey: apiKey
+    });
+
+    const response = await fetch(
+      `https://ummahapi.com/api/prayer-times?${params.toString()}`
+    );
+
+    if (!response.ok) {
+      throw new Error("Ummah API did not return prayer times.");
+    }
+
+    const result = await response.json();
+    const times = result && result.data && result.data.prayer_times;
+
+    if (!result.success || !times) {
+      throw new Error("Prayer times were missing from the Ummah API response.");
+    }
+
+    renderPrayerRows(buildPrayerSchedule(times));
+  } catch (error) {
+    console.error(error);
+    renderPrayerMessage("Prayer times could not be loaded right now.");
+  }
+}
 
 
 // 2. Get HTML elements
@@ -321,3 +349,4 @@ navMenu.querySelectorAll("a").forEach(function(link) {
 // ------------------------------------------
 
 displayMasjids();
+loadPrayerTimes();
